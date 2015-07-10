@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="Theme.Nav" parent="Base.AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds" api="21">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#448AFF</item>
+        <item name="android:text">#FFFFFF</item>
+
+        <item name="android:navigationBarColor" tools:targetApi="21">#448AFF</item>
+    </style>
+</resources>
